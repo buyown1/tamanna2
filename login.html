@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-5.3.8-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="sytle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <!-- nav-sec -->
+     <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg nav-colour ho ">
+        <div class="container">
+            <img src="pic/pngegg.png" width="30px" alt="">
+          <a class="navbar-brand" href="#">tamanna.JL</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="products.html">Products</a>
+              </li>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="products-details.html">Product-detail</a>
+              </li>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="sign-up.html">Signup</a>
+              </li>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="login.html">login</a>
+                 
+              </li>
+              
+              </ul>
+            <div class="cart me-3 fs-3">
+               <a href=""><i class="fa-solid fa-cart-shopping i"></i></i></a>
+            </div>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+             
+            </form>
+          </div>
+        </div>
+      </nav>
+     </header>
+
+      <!-- login -->
+        <main class=" container d-flex justify-content-center align-items-center vh-100 vw-100 ">
+           <div class="col-md-4 p-4 bg-transparent shadow-lg rounded-3">
+            <h2 class="text-center mb-3">Login</h2>
+            <form >
+                <div class="mb-3">
+                    <label class="form lebel">Username</label>
+                    <input type="text" class="form-control" placeholder="enter your username">
+                    
+
+
+                </div>
+                <div class="mb-3">
+                    <label class="form lebel">password</label>
+                    <input type="password" class="form-control" placeholder="enter your password"> 
+                </div>
+                <button class="btn btn-primary w-100" onclick="alert('Login Sucessful')">Login</button>
+            </form>
+           </div>
+           
+        </main>
+   
+     <!-- footer -->
+      <footer class="bg-dark text-light py-4 my-3">
+        <div class="text-center">
+         <h2 id="clock"></h2>
+        </div>
+        <p class="text-center "> Design By Tamanna Asha</p>
+      </footer>
+  
+
+    <script src="bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
