@@ -59,7 +59,7 @@
 }
 
 /* From Uiverse.io by ferlagher */ 
-button {
+.btn{
   position: relative;
   font-size: 1.2em;
   padding: 0.7em 1.4em;
@@ -71,7 +71,7 @@ button {
   box-shadow: 0.5em 0.5em 0.5em rgba(0, 0, 0, 0.3);
 }
 
-button::before {
+.btn::before {
   position: absolute;
   content: '';
   height: 0;
@@ -84,12 +84,13 @@ button::before {
   transition: 0.3s;
 }
 
-button:hover::before {
+.btn:hover::before {
   width: 1.6em;
   height: 1.6em;
 }
 
-button:active {
+.btn:active {
   box-shadow: 0.2em 0.2em 0.3em rgba(0, 0, 0, 0.3);
   transform: translate(0.1em, 0.1em);
 }
+
